@@ -25,9 +25,7 @@ export default function ProductDetail() {
     const mainProduct=productsDetail.find(product =>{
       return   product.id === params.productId
     })
-   let saleInfo={
-    
-   }
+   
    
   return (
     <div className='product'>
