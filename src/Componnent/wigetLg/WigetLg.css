@@ -1,0 +1,65 @@
+.wigetLg{
+    flex: 4;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+.wigetLg__title{
+  
+    font-size: 22px;
+    font-weight: 600;
+}
+.wigetLgTble{
+width: 100%;
+border-spacing: 10px;
+}
+.wigetLgTr{
+
+}
+.wigetLgTh{
+text-align: left;
+}
+.wigetLgTble__user{
+display: flex;
+align-items: center;
+}
+.wigetLgTble__user__img{
+     width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 10px;
+}
+.wigetLgTble__user__userName{
+
+}
+.wigetLgTble__user__date{
+font-weight: 300;
+}
+.wigetLgTble__user__amount{
+    font-weight: 300;
+
+}
+.wigetLgTble__user__status{
+
+}
+.widgetLgButton{
+    padding: 5px 7px;
+    border: none;
+    border-radius: 10px;
+}
+.widgetLgButton.Approved{
+  color:#3bb077;
+ background-color: #e5faf2;
+}
+.widgetLgButton.Decline{
+  color:'#d95087'  ;
+  background-color: #fff0f1;
+}
+.widgetLgButton.Pending{
+  color:#2a7ade  ;
+  background-color: #ebf1fe;
+}

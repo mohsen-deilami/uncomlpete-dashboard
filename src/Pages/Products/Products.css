@@ -1,0 +1,47 @@
+.productsList{
+    flex: 5;
+    padding:0 20px;
+    margin: 0 20px 0 50px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .75);
+    border-radius: 10px;
+}
+.productName{
+    cursor: pointer;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.productImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.datagrig{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.actionsContainer{
+    display: flex;
+    align-items: center;
+    
+}
+.editBtn{
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+    background-color:#3bb077;
+}
+
+.deleteIcon{
+    cursor: pointer;
+    font-size: 30px;
+    color: red;
+
+}

@@ -1,0 +1,58 @@
+.wigetSm {
+  flex: 2;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+}
+.title {
+  margin: 10px 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+.wiget__list {
+  margin: 10px 0;
+  padding: 10px;
+}
+.wigetSmList__items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 20px 0;
+}
+.wigetSmList__items__img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.wigetSmList__items__user {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.wigetSmList__items__userName {
+  font-size: 18px;
+  font-weight: 600;
+}
+.wigetSmList__items__userTitle {
+  font-weight: 300;
+  color: #888686;
+}
+.wigetSm__btn {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 10px;
+  background-color: #eeeef7;
+  color: #555;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.wigetSm__icon {
+  font-size: 16px !important;
+}
