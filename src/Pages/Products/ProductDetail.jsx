@@ -11,12 +11,7 @@ import PublishIcon from '@mui/icons-material/Publish';
 export default function ProductDetail() {
     let params=useParams();
     const [productsDetail ,setProductsDetail]=useState(productsDetails);
-    const [agree, setagree] = useState('');
-
-  const handleChange = (event) => {
-    setagree(event.target.value);
-  };
-   
+  
     const mainProduct=productsDetail.find(product =>{
       return   product.id === params.productId
     })
