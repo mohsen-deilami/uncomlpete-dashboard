@@ -20,20 +20,14 @@ export default function ProductDetail() {
   return (
     <div className='product'>
       <div className="productTitleContainer">
-      
           <h1 className='productTitle'>Product</h1>
           <Link to='/newProduct'>
           <button className='productAddBtn'>Create</button>
           </Link>
       </div>
-
       <div className="product__top">
         <div className="product__top-left">    
-      <Charts  
-      title="Sale In Month ... " 
-      data={xAxisDataProducts} dataKey="Sale" 
-      myClass={'product__top__chart'}
-       />
+      <Charts  title="Sale In Month ... "     data={xAxisDataProducts} dataKey="Sale"   myClass={'product__top__chart'}  />
         </div>
 
         <div className="prodcut__top-right">
