@@ -10,7 +10,6 @@ export default function App() {
   return (
     <>
       <Topbar />
-
       <div className="container">
         <Sidebar />
         {routesList}
