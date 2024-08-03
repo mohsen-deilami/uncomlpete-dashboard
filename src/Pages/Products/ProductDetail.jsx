@@ -29,7 +29,6 @@ export default function ProductDetail() {
         <div className="product__top-left">    
       <Charts  title="Sale In Month ... "     data={xAxisDataProducts} dataKey="Sale"   myClass={'product__top__chart'}  />
         </div>
-
         <div className="prodcut__top-right">
           <div className="productInfoTop">
             <img src={mainProduct.image} alt="" className="productInfoTop__Img" />
