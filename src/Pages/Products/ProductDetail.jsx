@@ -28,8 +28,7 @@ export default function ProductDetail() {
       </div>
 
       <div className="product__top">
-        <div className="product__top-left">
-          
+        <div className="product__top-left">    
       <Charts  
       title="Sale In Month ... " 
       data={xAxisDataProducts} dataKey="Sale" 
