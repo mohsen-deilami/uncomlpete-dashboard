@@ -34,7 +34,6 @@ export default function ProductDetail() {
             <img src={mainProduct.image} alt="" className="productInfoTop__Img" />
             <span className="productInfoTop__Name">{mainProduct.title}</span>
           </div>
-
           <div className="productInfoItems">
           <div className="productInfoItem">
             <div className="productInfoItem__Key">ID :</div>
@@ -57,7 +56,6 @@ export default function ProductDetail() {
             <div className="productInfoItem__value">No</div>
           </div>
           </div>
-
         </div>
       </div>
 
